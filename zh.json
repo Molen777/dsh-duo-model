@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "双模型协作",
+    "description": "两个格子里分别指定「思考者」与「工作者」模型：思考者负责方案与决策，工作者负责具体执行，效果更好、成本更低。"
+  },
+  "title": "双模型",
+  "planner": "思考者",
+  "worker": "工作者",
+  "plannerHint": "理解需求、拆解任务、做方案与决策",
+  "workerHint": "由思考者委派，负责实际执行",
+  "swap": "互换角色",
+  "apply": "启用分工",
+  "on": "分工已启用",
+  "off": "分工未启用",
+  "empty": "未选择",
+  "loading": "读取模型目录…",
+  "loadingFailed": "模型目录读取失败",
+  "noModels": "没有匹配的模型",
+  "search": "搜索模型",
+  "saveFailed": "保存失败",
+  "saved": "已保存",
+  "savedHint": "已写入 subagent 白名单：{planner} 思考，{worker} 执行。新会话生效。",
+  "enterHint": "Enter 选第一个 · Ctrl+Enter 选完继续当前设置",
+  "needBoth": "两个格子都要选好",
+  "readOnly": "配置只读",
+  "configNotReady": "配置尚未就绪",
+  "plannerFollow": "思考者 = 本会话模型（{name}）：已切换，新开一轮即生效。",
+  "unavailable": "当前会话不可选模型"
+}

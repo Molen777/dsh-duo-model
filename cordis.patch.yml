@@ -1,0 +1,7 @@
+- insert:
+    - id: duo-model
+      name: 'dsh-duo-model'
+      config:
+        provider: in-process
+        toolName: subagent
+        maxDepth: 10

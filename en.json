@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "Duo Model Routing",
+    "description": "Pick a planner model and a worker model in two cells: the planner thinks and decides, the worker executes — better results at a lower cost."
+  },
+  "title": "Duo",
+  "planner": "Planner",
+  "worker": "Worker",
+  "plannerHint": "Understands the request, decomposes the task, decides",
+  "workerHint": "Delegated by the planner, does the actual work",
+  "swap": "Swap roles",
+  "apply": "Enable duo routing",
+  "on": "Duo on",
+  "off": "Duo off",
+  "empty": "Not set",
+  "loading": "Loading model catalog…",
+  "loadingFailed": "Model catalog failed",
+  "noModels": "No matching model",
+  "search": "Search models",
+  "saveFailed": "Save failed",
+  "saved": "Saved",
+  "savedHint": "Allowlist written: {planner} plans, {worker} executes. Takes effect in new sessions.",
+  "enterHint": "Enter picks the first match · Ctrl+Enter keeps thinking here",
+  "needBoth": "Pick both cells first",
+  "readOnly": "Configuration is read-only",
+  "configNotReady": "Configuration not ready",
+  "plannerFollow": "Planner follows this session model ({name}): switched, effective on the next turn.",
+  "unavailable": "Model selection unavailable here"
+}
